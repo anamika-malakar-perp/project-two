@@ -1,0 +1,186 @@
+body {
+    background-color: #fbf6f6;
+    margin: 0;
+    position: relative;
+}
+
+.heading {
+    background-color: #fff;
+    padding: 15px 0 15px 0;
+}
+
+.heading span {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.tasks-list {
+    width: 60%;
+    margin: auto;
+}
+
+.list-heading {
+    color: #00A5EC;
+}
+
+.tile-section {
+    width: 30%;
+    margin: auto
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-icon {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.back-icon {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 30px 0;
+    color: #000;
+}
+
+.plus-icon {
+    color: #00A5EC;
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+.left-icon {
+    font-size: 27px;
+    margin-right: 10px;
+}
+
+.add-task {
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #000;
+}
+
+.tile {
+    width: 458px;
+    height: 270px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.card-title {
+    font-size: 17px;
+    color: #00A5EC;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.add-new-task {
+    width: 458px;
+    height: 200px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 11;
+    top: 40%;
+    left: 34%;
+}
+
+.new-card-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 172%;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.new-task-header {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.cancel-icon {
+    font-size: 22px;
+    color: #a7a4a4;
+}
+
+.input-form {
+    padding: 28px 20px;
+}
+
+input[type="text" i]  {
+    width: 96%;
+    padding: 7px;
+    background-color: #efecec;
+    border: unset;
+}
+
+.add-button {
+    background-color: #00A5EC;
+    border: unset;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: #fff;
+    float: right;
+}
+
+input[type="submit" i] {
+    background-color: #00A5EC;
+    border: unset;
+    color: #fff;
+    padding: 0;
+}
+
+hr {
+    margin: 0;
+    opacity: 0.2;
+}
+
+a {
+    text-decoration: none;
+}
+
+.datas {
+    display: flex;
+}
+
+.datas label {
+    line-height: 28px;
+    margin-left: 15px;
+    color: black;
+}
+
+.label-one label {
+    text-decoration: line-through;
+    color: #999191;
+}
+
+.label-one {
+    opacity: 0.5
+}
+
+input[type="checkbox" i] {
+    width: 22px;
+    height: 22px;
+    font-size: 20px;
+    accent-color: #ccc;
+}
