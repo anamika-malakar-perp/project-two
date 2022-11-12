@@ -190,3 +190,43 @@ input[type="checkbox" i] {
 .label-one {
     opacity: 0.5
 }
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+    .cards-tiles {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .tiles-section {
+        width: unset;
+        margin: unset;
+    }
+
+    .tile {
+        margin: 0 10px 17px 10px;
+        width: unset;
+    }
+
+    .third-tile {
+        width: unset;
+        margin: 0 10px 17px 10px;
+    }
+
+    .tasks-list {
+        margin-left: 12px;
+    }
+
+    .add-task {
+        display: none;
+    }
+
+    .add-icon {
+        margin-right: 140px;
+    }
+
+    .add-new-task {
+        width: 339px;
+        left: 0;
+        margin: 0 10px;
+    }
+}
