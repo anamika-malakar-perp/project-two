@@ -51,7 +51,7 @@ body {
 .tile {
     width: 290px;
     height: 315px;
-    margin-right: 17px;
+    margin-right: 10px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #EDEDED;
     border-radius: 10px;
